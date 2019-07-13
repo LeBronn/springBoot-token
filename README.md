@@ -19,19 +19,16 @@ springbootToken登录验证demo
 2. xxxx
 3. xxxx
 
-#### 参与贡献
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+开始测试
+![avatar](https://img2018.cnblogs.com/blog/1488478/201905/1488478-20190527175251961-555871155.png)
+## 成功登陆后保存token到前端cookie 以后的请求带上token即可区别是哪个用户的请求！
 
+![avatar](https://img2018.cnblogs.com/blog/1488478/201905/1488478-20190527180201244-347120532.png)
 
-#### 码云特技
+我们下一个请求在请求的时候带上这个token试试
+![avatar](https://img2018.cnblogs.com/blog/1488478/201905/1488478-20190527175933264-430036308.png)
+成功通过验证！ 我们看一下后端控制台打印的结果！
+![avatar](https://img2018.cnblogs.com/blog/1488478/201905/1488478-20190527180010396-949687945.png)
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)# springBoot-token
+打印出带这个token的用户
