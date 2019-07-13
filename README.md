@@ -5,19 +5,20 @@ springbootToken登录验证demo
 
 #### 软件架构
 软件架构说明
+springBoot整合token
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 导入项目到开发工具
+2. 导入sql到mysql
+3. 启动项目，打开postMan或者其他调试接口工具
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 先登录，获取token
+2. 不设置token到header访问getMessage接口
+3. 设置token到header访问getMessage接口
 
 
 开始测试
